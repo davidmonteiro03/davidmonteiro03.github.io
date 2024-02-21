@@ -6,15 +6,11 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/21 17:13:29 by dcaetano          #+#    #+#              #
-#    Updated: 2024/02/21 18:08:54 by dcaetano         ###   ########.fr        #
+#    Updated: 2024/02/21 18:11:41 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 from bs4 import BeautifulSoup as bs
-
-def get_table():
-	result = "<table>"
-	return result
 
 def main():
 	with open('index.html', 'r') as file:
