@@ -6,10 +6,11 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/21 17:13:29 by dcaetano          #+#    #+#              #
-#    Updated: 2024/02/21 19:34:50 by dcaetano         ###   ########.fr        #
+#    Updated: 2024/02/21 19:46:40 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+import requests
 from bs4 import BeautifulSoup as bs
 
 def add_tag(result, tag, tab):
@@ -46,11 +47,29 @@ def default_page():
 	add_tag(result, html, None)
 	return (result)
 
+def get_table():
+	site = "https://desporto.sapo.pt/futebol/competicao/primeira-liga-2/classificacao"
+	request = requests.get(site)
+	if (request.status_code == 200):
+		html_content = request.content
+		soup = bs(html_content, "html.parser")
+		table = soup.find("table", class_ = "[ ink-table medium bottom-space ] rankings-table")
+		if (table != None):
+			rows = table.find_all("tr")
+			if (len(rows) > 0):
+				for row in rows:
+					cols = row.find_all("td")
+					if (len(cols) > 0):
+						for col in cols:
+							print(col.text, end = " ")
+						print()
+
 def main():
 	doctype = "<!DOCTYPE html>"
 	default = default_page()
 	with open("index.html", "w") as file:
 		file.write(doctype + "\n" + str(default) + "\n")
+	table = get_table()
 
 if __name__ == "__main__":
 	main()
