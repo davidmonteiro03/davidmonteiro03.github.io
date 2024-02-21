@@ -6,7 +6,7 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/21 17:13:29 by dcaetano          #+#    #+#              #
-#    Updated: 2024/02/21 19:48:10 by dcaetano         ###   ########.fr        #
+#    Updated: 2024/02/21 19:49:37 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,13 +58,15 @@ def get_table():
 	if (table == None):
 		return None
 	rows = table.find_all("tr")
-	if (len(rows) > 0):
-		for row in rows:
-			cols = row.find_all("td")
-			if (len(cols) > 0):
-				for col in cols:
-					print(col.text, end = " ")
-				print()
+	if (len(rows) <= 0):
+		return (None)
+	for row in rows:
+		cols = row.find_all("td")
+		if (len(cols) <= 0):
+			continue
+		for col in cols:
+			print(col.text, end = " ")
+		print()
 
 def main():
 	doctype = "<!DOCTYPE html>"
