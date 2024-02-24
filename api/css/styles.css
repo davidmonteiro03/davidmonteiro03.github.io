@@ -92,7 +92,6 @@ table
 {
 	width: 100%;
 	border-collapse: collapse;
-	overflow-x: auto;
 	display: block;
 }
 
@@ -103,15 +102,8 @@ td, td
 	white-space: nowrap;
 }
 
-tbody
-{
-	display: block;
-	overflow-y: auto;
-}
-
 td
 {
-	display: inline-block;
 	padding: 5px;
 	font-size: 20px;
 	line-height: 33px;
