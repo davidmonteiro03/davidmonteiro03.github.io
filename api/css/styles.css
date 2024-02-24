@@ -1,4 +1,5 @@
-@font-face {
+@font-face
+{
 	font-family: "ubuntu-monospace";
 	src: url("../fonts/ubuntu/UbuntuMono-Regular.ttf");
 }
@@ -88,22 +89,11 @@ body
 	align-items: center;
 }
 
-table
-{
-	width: 100%;
-	border-collapse: collapse;
-	display: block;
-}
-
-td, td
-{
-	padding: 8px;
-	text-align: left;
-}
-
 td
 {
 	padding: 5px;
 	font-size: 20px;
 	line-height: 33px;
 }
+
+.table-container { overflow-x: auto; }
