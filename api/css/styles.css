@@ -88,30 +88,25 @@ body
 	align-items: center;
 }
 
-@media screen and (max-width: 600px)
+table
 {
-	table
-	{
-		width: 100%;
-		border-collapse: collapse;
-	}
-	th, td
-	{
-		display: block;
-		text-align: left;
-	}
-	th, td
-	{
-		padding: 10px;
-		border-bottom: 1px solid #ddd;
-	}
-	td:before
-	{
-		content: attr(data-label);
-		float: left;
-		font-weight: bold;
-	}
-	td:last-child { border-bottom: 0; }
+	width: 100%;
+	border-collapse: collapse;
+	overflow-x: auto;
+	display: block;
+}
+
+td, td
+{
+	padding: 8px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+tbody
+{
+	display: block;
+	overflow-y: auto;
 }
 
 td
