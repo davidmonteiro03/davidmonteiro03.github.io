@@ -88,8 +88,35 @@ body
 	align-items: center;
 }
 
+@media screen and (max-width: 600px)
+{
+	table
+	{
+		width: 100%;
+		border-collapse: collapse;
+	}
+	th, td
+	{
+		display: block;
+		text-align: left;
+	}
+	th, td
+	{
+		padding: 10px;
+		border-bottom: 1px solid #ddd;
+	}
+	td:before
+	{
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+	}
+	td:last-child { border-bottom: 0; }
+}
+
 td
 {
 	padding: 5px;
 	font-size: 20px;
+	line-height: 33px;
 }
