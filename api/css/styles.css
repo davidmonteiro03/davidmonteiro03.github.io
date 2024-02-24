@@ -100,5 +100,8 @@ td
 	padding: 5px;
 	font-size: 20px;
 	line-height: 33px;
-	white-space: normal;
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
