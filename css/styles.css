@@ -106,7 +106,4 @@ td
 	text-overflow: ellipsis;
 }
 
-table tr td:nth-child(3)
-{
-	background-color: #f00;
-}
+table tr td:nth-child(n+3):nth-child(-n+10) { text-align: center; }
