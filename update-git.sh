@@ -1,9 +1,4 @@
 #!/bin/bash
-clear
-cd api/py
-python3 api.py github
-clear
-cd ../..
 str="$*"
 if [ -z "$str" ]; then
 	str="git updates"
