@@ -1,5 +1,8 @@
 #!/bin/bash
 clear
+cd api
+pwd
+cd ..
 str="$*"
 if [ -z "$str" ]; then
 	str="git updates"
