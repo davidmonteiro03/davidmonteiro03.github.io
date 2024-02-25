@@ -116,7 +116,7 @@ table tr td:nth-child(n+3):nth-child(-n+10)
 	min-width: 50px;
 }
 
-table tr td:nth-child(2) { min-width: 200px; }
+table tr td:nth-child(2) { min-width: 250px; }
 
 table tr td { border-bottom: 1px solid #fff; }
 
