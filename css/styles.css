@@ -105,3 +105,8 @@ td
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+table tr td:nth-child(3)
+{
+	background-color: #f00;
+}
