@@ -97,7 +97,7 @@ body
 
 table, tr, td { border-collapse: collapse; }
 
-td
+td, th
 {
 	padding: 5px;
 	font-size: 20px;
