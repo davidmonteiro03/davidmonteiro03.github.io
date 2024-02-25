@@ -108,15 +108,13 @@ td
 	text-overflow: ellipsis;
 }
 
-table tr td:first-child { text-align: center; }
-
-table tr td:nth-child(n+3):nth-child(-n+10)
+table tr td:first-child, table tr td:nth-child(n+3):nth-child(-n+10)
 {
 	text-align: center;
 	min-width: 50px;
 }
 
-table tr td:nth-child(2) { min-width: 250px; }
+table tr td:nth-child(2) { min-width: 200px; }
 
 table tr td { border-bottom: 1px solid #fff; }
 
