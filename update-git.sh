@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 cd api/py
-python3 api.py
+python3 api.py github
 cd ../..
 str="$*"
 if [ -z "$str" ]; then
