@@ -120,6 +120,6 @@ table tr td:nth-child(2), table tr th:nth-child(2)
 	text-align: left;
 }
 
-table tr td { border-bottom: 1px solid #fff; }
+table tr td, table tr th { border-bottom: 1px solid #fff; }
 
-table tr:first-child td { border-top: 1px solid #fff; }
+table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
