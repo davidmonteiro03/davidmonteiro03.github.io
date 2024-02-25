@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
-cd api
-pwd
-cd ..
+cd api/py
+python3 api.py
+cd ../..
 str="$*"
 if [ -z "$str" ]; then
 	str="git updates"
