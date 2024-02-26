@@ -128,4 +128,8 @@ table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
 {
 	display: flex;
 	float: left;
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
