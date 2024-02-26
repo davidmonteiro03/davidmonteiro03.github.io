@@ -147,6 +147,6 @@ table tr:first-child th { border-top: 1px solid #fff; }
 	text-align: center;
 }
 
-.positive { color: solid #00aa00; }
+.positive { color: #00aa00; }
 
-.negative { color: solid #cc0000; }
+.negative { color: #cc0000; }
