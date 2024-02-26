@@ -123,13 +123,3 @@ table tr td:nth-child(2), table tr th:nth-child(2)
 table tr td, table tr th { border-bottom: 1px solid #fff; }
 
 table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
-
-.form, .win, .draw, .lose
-{
-	box-sizing: border-box;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-.win, .draw, .lose { float: left; }
