@@ -8,7 +8,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color: #666;
+	background-color: #222;
 	color: #fff;
 	font-family: ubuntu-monospace;
 }
@@ -124,11 +124,11 @@ table tr td, table tr th { border-bottom: 1px solid #fff; }
 
 table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
 
-.win { background-color: #7cb342; }
+.win { background-color: #00b300; }
 
-.draw { background-color: #999; }
+.draw { background-color: #555; }
 
-.lose { background-color: #ef5350; }
+.lose { background-color: #ef0000; }
 
 .win, .draw, .lose
 {
