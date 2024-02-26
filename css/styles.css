@@ -126,7 +126,7 @@ table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
 
 .win { background-color: #00aa00; }
 
-.draw { background-color: #666; }
+.draw { background-color: #777; }
 
 .lose { background-color: #cc0000; }
 
