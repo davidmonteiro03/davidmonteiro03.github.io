@@ -132,6 +132,7 @@ table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
 
 .win, .draw, .lose
 {
-	width: 100px;
-	height: 100px;
+	width: 33px;
+	height: 33px;
+	display: inline-block;
 }
