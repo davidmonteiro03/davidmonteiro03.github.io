@@ -130,5 +130,6 @@ table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	float: left;
 }
+
+.win, .draw, .lose { float: left; }
