@@ -124,9 +124,9 @@ table tr td, table tr th { border-bottom: 1px solid #fff; }
 
 table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
 
-.win { background-color: #00b300; }
+.win { background-color: #00a300; }
 
-.draw { background-color: #555; }
+.draw { background-color: #666; }
 
 .lose { background-color: #ef0000; }
 
