@@ -123,3 +123,9 @@ table tr td:nth-child(2), table tr th:nth-child(2)
 table tr td, table tr th { border-bottom: 1px solid #fff; }
 
 table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
+
+.win, .draw, .lose
+{
+	display: flex;
+	float: left;
+}
