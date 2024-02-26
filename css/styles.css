@@ -169,4 +169,4 @@ table tr:first-child td, table tr:first-child th { border-top: 1px solid #fff; }
 
 .positive { border: solid #00aa00; }
 
-.positive { border: solid #cc0000; }
+.negative { border: solid #cc0000; }
