@@ -133,11 +133,10 @@ td, th
 
 .calendar tr td:nth-child(4),
 .calendar tr td:nth-child(5),
-.calendar tr td:nth-child(6)
-{
-	min-width: 33px;
-	text-align: center;
-}
+.calendar tr td:nth-child(6) { text-align: center; }
+
+.calendar tr td:nth-child(4),
+.calendar tr td:nth-child(6) { min-width: 30px; }
 
 table tr td,
 table tr th { border-bottom: 1px solid #fff; }
