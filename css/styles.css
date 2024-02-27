@@ -128,6 +128,9 @@ td, th
 
 .calendar tr td:nth-child(2) { text-align: right; }
 
+.calendar tr td:nth-child(2),
+.calendar tr td:nth-child(8) { min-width: 200px; }
+
 table tr td,
 table tr th { border-bottom: 1px solid #fff; }
 
