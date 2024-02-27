@@ -126,6 +126,8 @@ td, th
 	text-align: left;
 }
 
+.calendar tr td:nth-child(n+2) { text-align: right; }
+
 table tr td,
 table tr th { border-bottom: 1px solid #fff; }
 
