@@ -128,7 +128,7 @@ td, th
 
 .calendar tr td:nth-child(1),
 .calendar tr td:nth-child(2),
-.calendar tr td:nth-child(8) { min-width: 200px; }
+.calendar tr td:nth-child(8) { min-width: 250px; }
 
 .calendar tr td:nth-child(n+4):nth-child(-n+6) { min-width: 33px; }
 
