@@ -91,10 +91,11 @@ body
 {
 	display: flex;
 	float: left;
-	margin-right: 5px;
 	justify-content: center;
 	align-items: center;
 }
+
+.table .container { margin-right: 5px; }
 
 table, tr, td { border-collapse: collapse; }
 
