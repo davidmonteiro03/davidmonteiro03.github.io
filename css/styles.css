@@ -113,8 +113,6 @@ td, th
 .table tr td:first-child,
 .table tr td:nth-child(n+4):nth-child(-n+11) { min-width: 33px; }
 
-.table tr td:nth-child(n+2) { min-width: 30px; }
-
 .table tr td:first-child,
 .table tr td:nth-child(n+2),
 .table tr td:nth-child(n+4):nth-child(-n+12) { text-align: center; }
